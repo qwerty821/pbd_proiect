@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B4341F0-9E41-5624-6648-2D4BAFE3CCD1" name="Cart">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-05 18:50:05 UTC</createdTime>
+<generatorID>9DEFF039-A4EF-03BD-86EC-E1CAEC0568AC</generatorID>
+<ownerDesignName>main_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CartID" id="CBF7B020-ACCA-5009-6DAA-8A7BF7F6FF6C">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-05 18:50:05 UTC</createdTime>
+<generatorID>8B198F1F-1AEC-AC31-11C5-7CF98817F742</generatorID>
+<ownerDesignName>main_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CreatedAt" id="0EA316E9-06F5-EE8D-825A-104B3101DB0D">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-05 20:16:50 UTC</createdTime>
+<generatorID>CF528433-2761-14C3-43EA-493218695941</generatorID>
+<ownerDesignName>main_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CustomerID" id="0C93049F-7C3D-3F1D-D277-D5C446843AE3">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-05 20:16:50 UTC</createdTime>
+<generatorID>B516B918-54DB-5C54-83A3-B886C30FC87E</generatorID>
+<ownerDesignName>main_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5E7F380-5731-87A0-EE3D-7C276FBC662B" referredColumn="D02485F0-B8C1-2930-B2EB-B7F75ED738E1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2977CD70-8E71-C234-5B9A-1E4E7A566599" name="Cart_PK">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-05 18:50:05 UTC</createdTime>
+<generatorID>AC30810C-E35E-FFBF-A67E-8223220174C1</generatorID>
+<ownerDesignName>main_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBF7B020-ACCA-5009-6DAA-8A7BF7F6FF6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A5E0A50-B77C-05BC-D99C-7651580999C9" name="Cart_Customer_FK">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-05 20:16:50 UTC</createdTime>
+<generatorID>63AC75BC-4C16-0D7E-0A6A-FB6872960E60</generatorID>
+<ownerDesignName>main_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C93049F-7C3D-3F1D-D277-D5C446843AE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

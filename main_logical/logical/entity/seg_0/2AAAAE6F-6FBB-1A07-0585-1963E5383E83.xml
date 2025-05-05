@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2AAAAE6F-6FBB-1A07-0585-1963E5383E83" name="Customer">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-05 19:51:20 UTC</createdTime>
+<ownerDesignName>main_logical</ownerDesignName>
+<engineerTo>
+<item key="B852F16C-42A1-BA71-4460-DBD4315436B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CustomerID" id="4445D438-8D28-EF6B-C63E-AA2543CDF811">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-05 19:51:33 UTC</createdTime>
+<ownerDesignName>main_logical</ownerDesignName>
+<engineerTo>
+<item key="B852F16C-42A1-BA71-4460-DBD4315436B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FirstName" id="6E669FDB-E7ED-A4E2-495F-40B07CAB9DA2">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-05 19:54:29 UTC</createdTime>
+<ownerDesignName>main_logical</ownerDesignName>
+<engineerTo>
+<item key="B852F16C-42A1-BA71-4460-DBD4315436B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LastName" id="F46368D3-4732-640E-0709-5F9065A7C779">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-05 19:55:26 UTC</createdTime>
+<ownerDesignName>main_logical</ownerDesignName>
+<engineerTo>
+<item key="B852F16C-42A1-BA71-4460-DBD4315436B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="54DDB960-6028-4067-5AB1-4964270113B0">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-05 19:55:46 UTC</createdTime>
+<ownerDesignName>main_logical</ownerDesignName>
+<engineerTo>
+<item key="B852F16C-42A1-BA71-4460-DBD4315436B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Password" id="718A4148-9C12-0AC9-F214-7E99593EE164">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-05 19:56:27 UTC</createdTime>
+<ownerDesignName>main_logical</ownerDesignName>
+<engineerTo>
+<item key="B852F16C-42A1-BA71-4460-DBD4315436B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PhoneNumber" id="9C27FD16-28E4-B584-91AC-5ECEF24BE8F5">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-05 20:02:30 UTC</createdTime>
+<ownerDesignName>main_logical</ownerDesignName>
+<engineerTo>
+<item key="B852F16C-42A1-BA71-4460-DBD4315436B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RegistrationDate" id="9DCF35E1-6228-277F-F3CF-91EB65BD7E4C">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-05 20:03:46 UTC</createdTime>
+<ownerDesignName>main_logical</ownerDesignName>
+<engineerTo>
+<item key="B852F16C-42A1-BA71-4460-DBD4315436B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CartID" id="0AD4E8B4-B837-9580-5B5F-156C914977A8">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-05 20:16:27 UTC</createdTime>
+<generatorID>63AC75BC-4C16-0D7E-0A6A-FB6872960E60</generatorID>
+<ownerDesignName>main_logical</ownerDesignName>
+<engineerTo>
+<item key="B852F16C-42A1-BA71-4460-DBD4315436B2" value="true"/>
+</engineerTo>
+<referedAttribute>8B198F1F-1AEC-AC31-11C5-7CF98817F742</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A7A7F8D3-F886-74B5-4C3B-AA6AB8472602" name="Customer PK">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-05 19:54:21 UTC</createdTime>
+<ownerDesignName>main_logical</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="B852F16C-42A1-BA71-4460-DBD4315436B2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4445D438-8D28-EF6B-C63E-AA2543CDF811</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

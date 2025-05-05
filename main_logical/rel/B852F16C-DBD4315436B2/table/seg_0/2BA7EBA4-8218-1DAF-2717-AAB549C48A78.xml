@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2BA7EBA4-8218-1DAF-2717-AAB549C48A78" name="CartItems">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-05 19:21:01 UTC</createdTime>
+<generatorID>48F11BDE-C2DC-B4FC-147F-C22D34235504</generatorID>
+<ownerDesignName>main_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CartItemID" id="AC72B5F2-89FB-1269-EC59-CC01A3C6BD54">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-05 19:21:01 UTC</createdTime>
+<generatorID>46F6C293-F5FA-D831-3B32-05BEEDC33D13</generatorID>
+<ownerDesignName>main_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Price" id="D479E40D-DC43-BF53-E834-0D6EDBE6DF03">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-05 19:21:01 UTC</createdTime>
+<generatorID>4CAC711E-B14C-1963-5900-54FE42FABDC9</generatorID>
+<ownerDesignName>main_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CartID" id="7ACDFED0-053A-DB1C-3065-930FEBE72FC7">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-05 19:21:01 UTC</createdTime>
+<generatorID>AA796C67-C355-39FD-E3A9-39800802D20B</generatorID>
+<ownerDesignName>main_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="01DD6D72-C117-E4D6-636F-264A57C81C1A" referredColumn="CBF7B020-ACCA-5009-6DAA-8A7BF7F6FF6C"/>
+</associations>
+</Column>
+<Column name="ProductID" id="E51D7858-5CFD-8942-FAAA-B9CB0D04399F">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-05 19:44:56 UTC</createdTime>
+<generatorID>2FB33340-672E-3D9C-4761-435851F9D445</generatorID>
+<ownerDesignName>main_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99B7E53D-E534-C72B-1BC3-46106FBA5918" referredColumn="D18AF0FE-3FC2-9777-AF5B-88958FC7E42F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7EE3125B-AD28-3549-E156-1F68A60AFD74" name="CartItems_PK">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-05 19:21:01 UTC</createdTime>
+<generatorID>7F9D30A2-9B30-CD54-D444-8DEED69FC46A</generatorID>
+<ownerDesignName>main_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC72B5F2-89FB-1269-EC59-CC01A3C6BD54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33FBFE28-9BFF-598B-DF7A-08C7D64D27DD" name="CartItems_Cart_FK">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-05 19:21:01 UTC</createdTime>
+<generatorID>DDBEE2ED-17D3-F0EB-21E2-3833A1AFAC70</generatorID>
+<ownerDesignName>main_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7ACDFED0-053A-DB1C-3065-930FEBE72FC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F36AC8A5-6587-6D46-797C-0E617124C261" name="CartItems_Products_FK">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-05 19:44:56 UTC</createdTime>
+<generatorID>98A167DE-B615-C9CF-98A4-7B409AEDD4E4</generatorID>
+<ownerDesignName>main_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E51D7858-5CFD-8942-FAAA-B9CB0D04399F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

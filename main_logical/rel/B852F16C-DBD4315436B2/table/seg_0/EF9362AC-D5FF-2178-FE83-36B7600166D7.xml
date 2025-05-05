@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF9362AC-D5FF-2178-FE83-36B7600166D7" name="Products">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-02 19:25:42 UTC</createdTime>
+<generatorID>A72D0F8E-866B-C80E-BE36-CFA3E21FA667</generatorID>
+<ownerDesignName>main_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ProductID" id="D18AF0FE-3FC2-9777-AF5B-88958FC7E42F">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-02 19:25:42 UTC</createdTime>
+<generatorID>FAAE343F-E898-826F-023C-A26480406F1D</generatorID>
+<ownerDesignName>main_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="8D5FEAC8-67B9-4317-96B2-C1E124A286E1">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-02 19:25:42 UTC</createdTime>
+<generatorID>F67C7E20-6D3B-DE7D-B389-1975BD677C27</generatorID>
+<ownerDesignName>main_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="97CBAAC9-6A3E-4DEA-2F18-3210B66EE646">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-02 19:25:42 UTC</createdTime>
+<generatorID>7D5C94FE-D972-1F0E-5B8E-60973A462749</generatorID>
+<ownerDesignName>main_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Price" id="5B981912-AC32-D056-83B9-E7F7610380AA">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-02 19:25:42 UTC</createdTime>
+<generatorID>13657E7B-300A-451F-EE2A-84B25069A1A1</generatorID>
+<ownerDesignName>main_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StockQuantity" id="0FD77D6F-D473-A954-27A0-16C6A99EC223">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-02 19:25:42 UTC</createdTime>
+<generatorID>F7B28E2D-2AEB-5275-CA2F-752A66883653</generatorID>
+<ownerDesignName>main_logical</ownerDesignName>
+<constraintName>product_stock_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="StockQuantity &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ImageUrl" id="BA77FBDA-E471-EBA3-4E2E-4102DD235443">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-02 19:25:42 UTC</createdTime>
+<generatorID>FA846D70-23B4-8F12-A912-AC58DA9893F8</generatorID>
+<ownerDesignName>main_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Slug" id="76974727-6704-C875-59A9-AB3261A5E009">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-02 19:25:42 UTC</createdTime>
+<generatorID>5DEDBD36-44BC-D270-2DBE-F1B27961AFF1</generatorID>
+<ownerDesignName>main_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>350</dataTypeSize>
+<ownDataTypeParameters>350,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Discount" id="C24095EA-E5E4-8C4B-4EFD-B6B3566AE109">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-02 19:25:42 UTC</createdTime>
+<generatorID>D53BB5D9-6828-9198-9351-02C8B0175371</generatorID>
+<ownerDesignName>main_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rating" id="467D43DA-FF34-87CF-2A1C-AC922B2C3D9E">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-02 19:25:42 UTC</createdTime>
+<generatorID>03E47B93-8F61-310A-D86A-BB651AACDC0B</generatorID>
+<ownerDesignName>main_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0BC1E96B-B9D4-37D5-C2C3-CD0957AD86BA" name="Products_PK">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-02 19:25:42 UTC</createdTime>
+<generatorID>F30130B4-0982-49E6-644F-B252497D9E26</generatorID>
+<ownerDesignName>main_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D18AF0FE-3FC2-9777-AF5B-88958FC7E42F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
