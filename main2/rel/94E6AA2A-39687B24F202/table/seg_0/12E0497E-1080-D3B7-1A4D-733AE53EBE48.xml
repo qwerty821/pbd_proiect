@@ -37,7 +37,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="DC3850AC-ACCF-BC0B-7706-167C8C854A0F" name="ProductCategories_PK">
+<ind_PK_UK id="DC3850AC-ACCF-BC0B-7706-167C8C854A0F" name="ProductsCategories_PK">
 <createdBy>qwerty</createdBy>
 <createdTime>2025-05-07 16:41:16 UTC</createdTime>
 <ownerDesignName>main2</ownerDesignName>
@@ -49,7 +49,7 @@
 <colUsage columnID="5C6819E5-0D93-E5C7-6E96-8D761B7FEC58"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="661AB8E8-61D6-5007-E654-38EC9752BFE4" name="ProductCategories_Products_FK">
+<ind_PK_UK id="661AB8E8-61D6-5007-E654-38EC9752BFE4" name="ProdtCat_Products_FK">
 <createdBy>qwerty</createdBy>
 <createdTime>2025-05-07 16:41:16 UTC</createdTime>
 <generatorID>8C1A9F53-92CB-F3FA-4610-31377C8502CC</generatorID>
@@ -60,7 +60,7 @@
 <colUsage columnID="1C427C28-D439-73E8-D3EC-5020C9A83EB7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DAEC785F-D15B-F209-D0DF-6BA47B55FE1F" name="ProductCategories_Categories_FK">
+<ind_PK_UK id="DAEC785F-D15B-F209-D0DF-6BA47B55FE1F" name="ProdCat_Categories_FK">
 <createdBy>qwerty</createdBy>
 <createdTime>2025-05-07 16:41:16 UTC</createdTime>
 <generatorID>8C1A9F53-92CB-F3FA-4610-31377C8502CC</generatorID>
