@@ -1,33 +1,29 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C149253-EEFD-7E1F-5BDA-2C14D5202717" name="Cart">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="285588E0-880B-8BF6-5CEB-E34824A828B9" name="Cart">
 <createdBy>qwerty</createdBy>
-<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
 <generatorID>BAFD50AA-5C7F-DC95-2A1F-A0EAE61FA80C</generatorID>
 <ownerDesignName>main2</ownerDesignName>
-<importedID>5B4341F0-9E41-5624-6648-2D4BAFE3CCD1</importedID>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CartID" id="DE66C5C6-F403-B84F-BA8C-7FB6CB2F9EE5">
+<Column name="CartID" id="C1AF81C9-3044-EC15-E618-542FE71569FC">
 <createdBy>qwerty</createdBy>
-<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
 <generatorID>CA93AAF5-EAEA-9DD6-60A2-C9A59CA082B8</generatorID>
 <ownerDesignName>main2</ownerDesignName>
-<importedID>CBF7B020-ACCA-5009-6DAA-8A7BF7F6FF6C</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CreatedAt" id="8F305D3B-E7FF-A36B-589D-9DFC5B52377C">
+<Column name="CreatedAt" id="8C1228D3-7585-D9B1-667A-01DEE5591CF6">
 <createdBy>qwerty</createdBy>
-<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
 <generatorID>DD954FE7-C5C1-6C10-2A97-D6CCC0B5181E</generatorID>
 <ownerDesignName>main2</ownerDesignName>
-<importedID>0EA316E9-06F5-EE8D-825A-104B3101DB0D</importedID>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -35,45 +31,55 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CustomerID" id="F0588299-BF33-088A-0C72-5538D63C296E">
+<Column name="CustomerID" id="09616E0A-E484-57A5-297E-ADF483B44A38">
 <createdBy>qwerty</createdBy>
-<createdTime>2025-05-07 16:24:55 UTC</createdTime>
-<generatorID>0CA2E95E-A52C-1195-E735-C6FC8241DE1B</generatorID>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
+<generatorID>14F0BE85-BF1B-0F8F-DCB9-71D2AD60FABE</generatorID>
 <ownerDesignName>main2</ownerDesignName>
-<importedID>0C93049F-7C3D-3F1D-D277-D5C446843AE3</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="7D8861FA-521C-274C-8B5E-2498F15BD97A" referredColumn="592E8948-12D9-B22C-D39D-DF86ED344310"/>
+<colAssociation fkAssociation="A8C61909-B30F-40F2-9FCD-E6C01EECCFB9" referredColumn="8BDDC16D-3098-E050-D73A-49FF16F9738E"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="018016AC-5A66-568F-C889-D9B07FF0BD6D" name="Cart_PK">
+<ind_PK_UK id="F2A42DBF-6043-D3DB-CC23-C1823197FF6C" name="Cart_PK">
 <createdBy>qwerty</createdBy>
-<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
 <generatorID>D54828BC-93C4-FFB0-B328-A58BAA7D8A67</generatorID>
 <ownerDesignName>main2</ownerDesignName>
-<importedID>2977CD70-8E71-C234-5B9A-1E4E7A566599</importedID>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="DE66C5C6-F403-B84F-BA8C-7FB6CB2F9EE5"/>
+<colUsage columnID="C1AF81C9-3044-EC15-E618-542FE71569FC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="453E276E-E5EB-4111-C6F4-93A50809F557" name="Cart_Customer_FK">
+<ind_PK_UK id="A3548794-9D75-A441-23F6-DEB296D0696C" name="Cart__IDX">
 <createdBy>qwerty</createdBy>
-<createdTime>2025-05-07 16:24:55 UTC</createdTime>
-<generatorID>84C228D8-8E24-A827-31C4-F89F3FDDE071</generatorID>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E3603506-2FA3-0FA4-F434-F62D8B1A92B5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="09616E0A-E484-57A5-297E-ADF483B44A38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B08D7E5F-AC51-B4F7-5CDC-A3D1C59F26AD" name="Cart_Customer_FK">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
+<generatorID>E3603506-2FA3-0FA4-F434-F62D8B1A92B5</generatorID>
 <ownerDesignName>main2</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F0588299-BF33-088A-0C72-5538D63C296E"/>
+<colUsage columnID="09616E0A-E484-57A5-297E-ADF483B44A38"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

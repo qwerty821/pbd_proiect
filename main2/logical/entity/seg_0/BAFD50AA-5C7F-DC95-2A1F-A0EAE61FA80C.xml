@@ -43,12 +43,11 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CustomerID" id="0CA2E95E-A52C-1195-E735-C6FC8241DE1B">
+<Attribute name="CustomerID" id="14F0BE85-BF1B-0F8F-DCB9-71D2AD60FABE">
 <createdBy>qwerty</createdBy>
-<createdTime>2025-05-07 16:24:55 UTC</createdTime>
-<generatorID>84C228D8-8E24-A827-31C4-F89F3FDDE071</generatorID>
+<createdTime>2025-05-07 16:40:35 UTC</createdTime>
+<generatorID>E3603506-2FA3-0FA4-F434-F62D8B1A92B5</generatorID>
 <ownerDesignName>main2</ownerDesignName>
-<importedID>B516B918-54DB-5C54-83A3-B886C30FC87E</importedID>
 <engineerTo>
 <item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
 </engineerTo>
@@ -64,9 +63,10 @@
 <createdBy>qwerty</createdBy>
 <createdTime>2025-05-07 16:24:55 UTC</createdTime>
 <ownerDesignName>main2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>AC30810C-E35E-FFBF-A67E-8223220174C1</importedID>
 <engineerTo>
-<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

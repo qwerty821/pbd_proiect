@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C240552B-2003-C7D2-8179-F812D6BA6F46" name="CartItems">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cart_CartID" id="6D54E970-C7F8-DCAF-BBF7-458BA59F2620">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34F395A7-D3BD-DE48-D72B-365CABC47502" referredColumn="C1AF81C9-3044-EC15-E618-542FE71569FC"/>
+</associations>
+</Column>
+<Column name="Products_ProductID" id="9B1C424F-E83B-376B-B78B-1C8FE6171374">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB11A6A4-13D8-0EEE-5F48-DD07FF12EB67" referredColumn="EDF339BB-852D-5681-A3B0-9F3E2B7E8131"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED484C59-56E2-D257-8298-768410BC4129" name="CartItems_PK">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D54E970-C7F8-DCAF-BBF7-458BA59F2620"/>
+<colUsage columnID="9B1C424F-E83B-376B-B78B-1C8FE6171374"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FA43F0B-8D91-3120-D84F-CF103BFB41E0" name="CartItems_Cart_FK">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
+<generatorID>060FC216-460E-C5FB-50C0-57D6674FD802</generatorID>
+<ownerDesignName>main2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D54E970-C7F8-DCAF-BBF7-458BA59F2620"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3AFDEF6-5449-5F0D-BAB8-1FAD1AFD2DA7" name="CartItems_Products_FK">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
+<generatorID>060FC216-460E-C5FB-50C0-57D6674FD802</generatorID>
+<ownerDesignName>main2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B1C424F-E83B-376B-B78B-1C8FE6171374"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

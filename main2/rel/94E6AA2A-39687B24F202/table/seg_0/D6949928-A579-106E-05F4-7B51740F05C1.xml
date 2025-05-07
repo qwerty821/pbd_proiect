@@ -1,32 +1,29 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="072B2E85-15C6-430E-D889-9F69DDE338B7" name="Products">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6949928-A579-106E-05F4-7B51740F05C1" name="Products">
 <createdBy>qwerty</createdBy>
-<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
 <generatorID>16EBC37F-C491-B211-B79F-C14433A275D7</generatorID>
 <ownerDesignName>main2</ownerDesignName>
-<importedID>EF9362AC-D5FF-2178-FE83-36B7600166D7</importedID>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ProductID" id="2D8BC423-2285-DC79-6F64-F377F746A8F7">
+<Column name="ProductID" id="EDF339BB-852D-5681-A3B0-9F3E2B7E8131">
 <createdBy>qwerty</createdBy>
-<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
 <generatorID>1AD126F9-4C7B-7C86-4E3C-928971C6ABCA</generatorID>
 <ownerDesignName>main2</ownerDesignName>
-<importedID>D18AF0FE-3FC2-9777-AF5B-88958FC7E42F</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Name" id="A7A2B2F3-4A36-4295-291A-B9ACCFF21C32">
+<Column name="Name" id="DBB71214-A86C-848E-B8E5-933D192D6531">
 <createdBy>qwerty</createdBy>
-<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
 <generatorID>4FA4B099-2D64-BA88-D099-BB3F9641FAA5</generatorID>
 <ownerDesignName>main2</ownerDesignName>
-<importedID>8D5FEAC8-67B9-4317-96B2-C1E124A286E1</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
@@ -34,12 +31,11 @@
 <ownDataTypeParameters>250,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Description" id="036125F8-1888-BED9-592C-8797D2D5187D">
+<Column name="Description" id="53D98840-BE52-9C55-743B-57756E3CDD15">
 <createdBy>qwerty</createdBy>
-<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
 <generatorID>B304A7CE-A7C4-F4AC-625E-BC9F296B7933</generatorID>
 <ownerDesignName>main2</ownerDesignName>
-<importedID>97CBAAC9-6A3E-4DEA-2F18-3210B66EE646</importedID>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -48,12 +44,11 @@
 <ownDataTypeParameters>500,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Price" id="264A8FF0-95D5-040B-D439-38C74AAE7659">
+<Column name="Price" id="BEE473FC-86FF-178D-A177-45C6D7880110">
 <createdBy>qwerty</createdBy>
-<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
 <generatorID>2DF69B37-48F2-4B3D-3D64-90DCFB615C78</generatorID>
 <ownerDesignName>main2</ownerDesignName>
-<importedID>5B981912-AC32-D056-83B9-E7F7610380AA</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
@@ -62,12 +57,11 @@
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="StockQuantity" id="D775DD90-67C0-1EEA-1871-BC866F9A1053">
+<Column name="StockQuantity" id="DC69B17B-4601-ABD9-BC69-056588CFA13D">
 <createdBy>qwerty</createdBy>
-<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
 <generatorID>7626B55D-C501-76E7-7211-8967AB8AC248</generatorID>
 <ownerDesignName>main2</ownerDesignName>
-<importedID>0FD77D6F-D473-A954-27A0-16C6A99EC223</importedID>
 <constraintName>product_stock_ck</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -78,12 +72,11 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ImageUrl" id="783CCFA1-8EAA-EA0F-6EF4-A5AACCC1CDE9">
+<Column name="ImageUrl" id="41E2EDB5-B45F-0DB4-7B24-B81931E0C062">
 <createdBy>qwerty</createdBy>
-<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
 <generatorID>3810077B-9DFE-5122-4E0F-D49C7E6DD79E</generatorID>
 <ownerDesignName>main2</ownerDesignName>
-<importedID>BA77FBDA-E471-EBA3-4E2E-4102DD235443</importedID>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -92,12 +85,11 @@
 <ownDataTypeParameters>500,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Slug" id="82A20BC3-3891-099E-920B-838B28C444A9">
+<Column name="Slug" id="5ECE3AD3-BF5C-B1BE-0B90-93A98B314139">
 <createdBy>qwerty</createdBy>
-<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
 <generatorID>4CD16A40-C9DC-5DCD-25B3-73EF987353D2</generatorID>
 <ownerDesignName>main2</ownerDesignName>
-<importedID>76974727-6704-C875-59A9-AB3261A5E009</importedID>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -106,12 +98,11 @@
 <ownDataTypeParameters>350,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Discount" id="AE762D33-6D8F-199A-5632-7CC115748A06">
+<Column name="Discount" id="CE50BF28-EC7B-32C3-29FE-CE77E30A2549">
 <createdBy>qwerty</createdBy>
-<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
 <generatorID>7079719C-902C-F7D6-52CC-54C1DEFEA382</generatorID>
 <ownerDesignName>main2</ownerDesignName>
-<importedID>C24095EA-E5E4-8C4B-4EFD-B6B3566AE109</importedID>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -121,12 +112,11 @@
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Rating" id="221A04C5-2E7B-6F25-3DA4-097A7D18C500">
+<Column name="Rating" id="3FBCEDC3-25B2-E65F-6A9F-9963105F07F6">
 <createdBy>qwerty</createdBy>
-<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
 <generatorID>42E67958-53D5-CABF-835F-2EE5B976CB33</generatorID>
 <ownerDesignName>main2</ownerDesignName>
-<importedID>467D43DA-FF34-87CF-2A1C-AC922B2C3D9E</importedID>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -138,17 +128,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3142A1CA-C93D-9F2C-94F0-AE77E1008239" name="Products_PK">
+<ind_PK_UK id="CB6EC750-BD14-DD7B-B54B-A3C176D80F9D" name="Products_PK">
 <createdBy>qwerty</createdBy>
-<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
 <generatorID>FCA52DD8-057E-D726-BDA7-C47D01BB5693</generatorID>
 <ownerDesignName>main2</ownerDesignName>
-<importedID>0BC1E96B-B9D4-37D5-C2C3-CD0957AD86BA</importedID>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="2D8BC423-2285-DC79-6F64-F377F746A8F7"/>
+<colUsage columnID="EDF339BB-852D-5681-A3B0-9F3E2B7E8131"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

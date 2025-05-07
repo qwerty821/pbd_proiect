@@ -114,30 +114,16 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CartID" id="D557A59D-CBF8-DC3E-D02D-E513BC3BD8E3">
-<createdBy>qwerty</createdBy>
-<createdTime>2025-05-07 16:24:55 UTC</createdTime>
-<generatorID>84C228D8-8E24-A827-31C4-F89F3FDDE071</generatorID>
-<ownerDesignName>main2</ownerDesignName>
-<importedID>0AD4E8B4-B837-9580-5B5F-156C914977A8</importedID>
-<engineerTo>
-<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
-</engineerTo>
-<referedAttribute>CA93AAF5-EAEA-9DD6-60A2-C9A59CA082B8</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="6B2ED6D4-0CE9-16B5-14D9-ED2B4A7CA279" name="Customer PK">
 <createdBy>qwerty</createdBy>
 <createdTime>2025-05-07 16:24:55 UTC</createdTime>
 <ownerDesignName>main2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <importedID>A7A7F8D3-F886-74B5-4C3B-AA6AB8472602</importedID>
 <engineerTo>
-<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

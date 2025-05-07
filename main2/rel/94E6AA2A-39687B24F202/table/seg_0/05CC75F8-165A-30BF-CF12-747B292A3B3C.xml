@@ -1,33 +1,29 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="73795781-DC5F-80C3-9447-C51FC022421E" name="Categories">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05CC75F8-165A-30BF-CF12-747B292A3B3C" name="Categories">
 <createdBy>qwerty</createdBy>
-<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
 <generatorID>56A9F722-2D7D-87F3-10BE-DCFBAF580CA2</generatorID>
 <ownerDesignName>main2</ownerDesignName>
-<importedID>A5C24904-920B-4485-8D68-BB880B54CC48</importedID>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CategoryID" id="0B1C67C4-67A9-EC5D-85D1-16602613F205">
+<Column name="CategoryID" id="F2463096-C8CB-6668-2EE4-6B049B341DDA">
 <createdBy>qwerty</createdBy>
-<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
 <generatorID>A3E5C67E-1013-02B9-D930-85B62AA7FCDC</generatorID>
 <ownerDesignName>main2</ownerDesignName>
-<importedID>C4F53784-5E58-792E-6A5E-6C9CD7D73336</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Name" id="8DC706C9-5264-0FCC-1F57-BB0357BCADFE">
+<Column name="Name" id="C6491E30-6146-18D6-B0DF-AECF5566564B">
 <createdBy>qwerty</createdBy>
-<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
 <generatorID>78D6A595-A6A3-8C32-341E-F49D2922A364</generatorID>
 <ownerDesignName>main2</ownerDesignName>
-<importedID>A7518289-248D-F5C2-B934-9D3A5602EF20</importedID>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT037</logicalDatatype>
@@ -35,12 +31,11 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Description" id="1942A5B6-60AB-CD26-CCD5-465B1B594562">
+<Column name="Description" id="EE881AAA-0D28-E237-60D3-511E0FB2A361">
 <createdBy>qwerty</createdBy>
-<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
 <generatorID>9302C14A-B9DF-2F6D-20FE-071F1435F861</generatorID>
 <ownerDesignName>main2</ownerDesignName>
-<importedID>2D5655D9-F530-C948-B21B-138EB57538F8</importedID>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -51,17 +46,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="BFCADE7D-23A2-E3CB-46F8-ADE8FDB9E100" name="Categories_PK">
+<ind_PK_UK id="78AD9532-98D3-ED38-E55D-FB376C195809" name="Categories_PK">
 <createdBy>qwerty</createdBy>
-<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<createdTime>2025-05-07 16:41:16 UTC</createdTime>
 <generatorID>9310BBA2-9E6F-C4CE-192C-523D5895F047</generatorID>
 <ownerDesignName>main2</ownerDesignName>
-<importedID>FFDD5A3A-807D-75B9-1423-BC4F1FF14FFB</importedID>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="0B1C67C4-67A9-EC5D-85D1-16602613F205"/>
+<colUsage columnID="F2463096-C8CB-6668-2EE4-6B049B341DDA"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
