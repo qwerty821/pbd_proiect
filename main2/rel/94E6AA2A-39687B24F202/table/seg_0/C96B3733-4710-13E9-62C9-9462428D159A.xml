@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C96B3733-4710-13E9-62C9-9462428D159A" name="ProductCategories">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<importedID>299BC7C8-D0AC-C137-1219-0D163EE57847</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ProductID" id="44C7C50C-EC06-81EF-BF72-A67137B0FDBA">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<importedID>11070A39-EBE8-6D79-8B6F-2D9024344EFA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34AC60A6-0FEC-DF65-999D-63B5DC036EDA" referredColumn="2D8BC423-2285-DC79-6F64-F377F746A8F7"/>
+</associations>
+</Column>
+<Column name="CategoryID" id="1C028E0D-2210-7C0E-C9F8-222DAC801F43">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<importedID>300ECD63-9C62-7E3E-2B75-C85920439529</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="417F96A0-0D61-4923-D653-1EE9262555C0" referredColumn="0B1C67C4-67A9-EC5D-85D1-16602613F205"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9E2D814E-BFF9-33A3-009C-AE3774B98CCE" name="ProductCategory_PK">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<importedID>77357FEB-BA17-EF90-7B69-3A7BB0454EEE</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44C7C50C-EC06-81EF-BF72-A67137B0FDBA"/>
+<colUsage columnID="1C028E0D-2210-7C0E-C9F8-222DAC801F43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45C3A13B-0DB1-3D77-D43E-76200AC15C93" name="Products_FK">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<generatorID>8C1A9F53-92CB-F3FA-4610-31377C8502CC</generatorID>
+<ownerDesignName>main2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44C7C50C-EC06-81EF-BF72-A67137B0FDBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B45E592-8483-AC48-F804-F437C79EF1D0" name="Categories_FK">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<generatorID>8C1A9F53-92CB-F3FA-4610-31377C8502CC</generatorID>
+<ownerDesignName>main2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C028E0D-2210-7C0E-C9F8-222DAC801F43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

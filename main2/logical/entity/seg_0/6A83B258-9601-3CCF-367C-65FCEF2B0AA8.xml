@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A83B258-9601-3CCF-367C-65FCEF2B0AA8" name="Customer">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<importedID>2AAAAE6F-6FBB-1A07-0585-1963E5383E83</importedID>
+<engineerTo>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CustomerID" id="82F960D0-E7D9-416D-B4EB-966B0C57F1A0">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<importedID>4445D438-8D28-EF6B-C63E-AA2543CDF811</importedID>
+<engineerTo>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FirstName" id="E94BCC9A-4120-DAB5-ED7F-1B381FB74AF5">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<importedID>6E669FDB-E7ED-A4E2-495F-40B07CAB9DA2</importedID>
+<engineerTo>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LastName" id="7691F925-6F78-AA7F-C3E9-45BBA539B9B9">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<importedID>F46368D3-4732-640E-0709-5F9065A7C779</importedID>
+<engineerTo>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="872A1988-DC23-12D9-B830-C0C8B7D34D8E">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<importedID>54DDB960-6028-4067-5AB1-4964270113B0</importedID>
+<engineerTo>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Password" id="EDC8723A-EBF5-3003-A61C-FFBA15E69F1D">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<importedID>718A4148-9C12-0AC9-F214-7E99593EE164</importedID>
+<engineerTo>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PhoneNumber" id="B4D3AC1B-6F3C-0C4A-5229-528F5D60E8C0">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<importedID>9C27FD16-28E4-B584-91AC-5ECEF24BE8F5</importedID>
+<engineerTo>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RegistrationDate" id="0C917346-ACED-CA33-098C-558189B9F71E">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<importedID>9DCF35E1-6228-277F-F3CF-91EB65BD7E4C</importedID>
+<engineerTo>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CartID" id="D557A59D-CBF8-DC3E-D02D-E513BC3BD8E3">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<generatorID>84C228D8-8E24-A827-31C4-F89F3FDDE071</generatorID>
+<ownerDesignName>main2</ownerDesignName>
+<importedID>0AD4E8B4-B837-9580-5B5F-156C914977A8</importedID>
+<engineerTo>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+</engineerTo>
+<referedAttribute>CA93AAF5-EAEA-9DD6-60A2-C9A59CA082B8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6B2ED6D4-0CE9-16B5-14D9-ED2B4A7CA279" name="Customer PK">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<importedID>A7A7F8D3-F886-74B5-4C3B-AA6AB8472602</importedID>
+<engineerTo>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>82F960D0-E7D9-416D-B4EB-966B0C57F1A0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

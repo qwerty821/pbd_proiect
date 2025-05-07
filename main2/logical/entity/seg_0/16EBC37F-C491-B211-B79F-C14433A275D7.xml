@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="16EBC37F-C491-B211-B79F-C14433A275D7" name="Products">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<importedID>A72D0F8E-866B-C80E-BE36-CFA3E21FA667</importedID>
+<engineerTo>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ProductID" id="1AD126F9-4C7B-7C86-4E3C-928971C6ABCA">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<importedID>FAAE343F-E898-826F-023C-A26480406F1D</importedID>
+<engineerTo>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="4FA4B099-2D64-BA88-D099-BB3F9641FAA5">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<importedID>F67C7E20-6D3B-DE7D-B389-1975BD677C27</importedID>
+<engineerTo>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Description" id="B304A7CE-A7C4-F4AC-625E-BC9F296B7933">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<importedID>7D5C94FE-D972-1F0E-5B8E-60973A462749</importedID>
+<engineerTo>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Price" id="2DF69B37-48F2-4B3D-3D64-90DCFB615C78">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<importedID>13657E7B-300A-451F-EE2A-84B25069A1A1</importedID>
+<engineerTo>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StockQuantity" id="7626B55D-C501-76E7-7211-8967AB8AC248">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<importedID>F7B28E2D-2AEB-5275-CA2F-752A66883653</importedID>
+<engineerTo>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+</engineerTo>
+<constraintName>product_stock_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="StockQuantity &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ImageUrl" id="3810077B-9DFE-5122-4E0F-D49C7E6DD79E">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<importedID>FA846D70-23B4-8F12-A912-AC58DA9893F8</importedID>
+<engineerTo>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Slug" id="4CD16A40-C9DC-5DCD-25B3-73EF987353D2">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<importedID>5DEDBD36-44BC-D270-2DBE-F1B27961AFF1</importedID>
+<engineerTo>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>350</dataTypeSize>
+<ownDataTypeParameters>350,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Discount" id="7079719C-902C-F7D6-52CC-54C1DEFEA382">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<importedID>D53BB5D9-6828-9198-9351-02C8B0175371</importedID>
+<engineerTo>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rating" id="42E67958-53D5-CABF-835F-2EE5B976CB33">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<importedID>03E47B93-8F61-310A-D86A-BB651AACDC0B</importedID>
+<engineerTo>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FCA52DD8-057E-D726-BDA7-C47D01BB5693" name="Products PK">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:24:55 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<importedID>F30130B4-0982-49E6-644F-B252497D9E26</importedID>
+<engineerTo>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1AD126F9-4C7B-7C86-4E3C-928971C6ABCA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

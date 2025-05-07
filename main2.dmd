@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="main2" id="997B8543-6576-B2DC-DEED-189D86CD8FF4" version="3.5">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-07 16:23:55 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>997B8543-6576-B2DC-DEED-189D86CD8FF4</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="F22596F9-0789-F645-A6E1-BA41DB14DFA3">
+<designStoragePath>D:\Facultate\an4\PBD\Proiect\pbd_proiect\main_logical</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>
