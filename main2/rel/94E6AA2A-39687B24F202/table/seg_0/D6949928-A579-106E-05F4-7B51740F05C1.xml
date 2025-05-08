@@ -17,6 +17,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Name" id="DBB71214-A86C-848E-B8E5-933D192D6531">
@@ -103,12 +104,16 @@
 <createdTime>2025-05-07 16:41:16 UTC</createdTime>
 <generatorID>7079719C-902C-F7D6-52CC-54C1DEFEA382</generatorID>
 <ownerDesignName>main2</ownerDesignName>
+<constraintName>Product_Discount_ck</constraintName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT026</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="Discount &gt; 0"/>
+</checkConstraint>
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -138,6 +143,28 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="EDF339BB-852D-5681-A3B0-9F3E2B7E8131"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="301F138D-0755-2F5A-FE21-62D1C4453172" name="Products_Name_UN">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-08 20:44:22 UTC</createdTime>
+<generatorID>88B595CC-1B17-9547-7A6D-D1A60F91D166</generatorID>
+<ownerDesignName>main2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBB71214-A86C-848E-B8E5-933D192D6531"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DC8E5DC-FBC4-2187-0570-4696362375BE" name="Products_Slug_UN">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-08 20:44:22 UTC</createdTime>
+<generatorID>77916A0E-1EBB-C11D-BE7E-0E7F30AF4FF5</generatorID>
+<ownerDesignName>main2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5ECE3AD3-BF5C-B1BE-0B90-93A98B314139"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

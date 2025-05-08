@@ -17,6 +17,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="Name" id="C6491E30-6146-18D6-B0DF-AECF5566564B">
@@ -56,6 +57,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="F2463096-C8CB-6668-2EE4-6B049B341DDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="244F4E44-B654-AEDA-29A9-881CC847C09D" name="Categories_Name_UN">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-08 20:44:22 UTC</createdTime>
+<generatorID>D8E1BECA-28A5-5728-3B20-30E079CB706E</generatorID>
+<ownerDesignName>main2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6491E30-6146-18D6-B0DF-AECF5566564B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

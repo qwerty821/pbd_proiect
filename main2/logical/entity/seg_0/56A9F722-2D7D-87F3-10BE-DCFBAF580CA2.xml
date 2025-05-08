@@ -74,5 +74,17 @@
 <attributeRef>A3E5C67E-1013-02B9-D930-85B62AA7FCDC</attributeRef>
 </usedAttributes>
 </identifier>
+<identifier id="D8E1BECA-28A5-5728-3B20-30E079CB706E" name="Category_Name_UK">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-08 20:42:59 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<engineerTo>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+</engineerTo>
+<newElementsIDs>78D6A595-A6A3-8C32-341E-F49D2922A364</newElementsIDs>
+<usedAttributes>
+<attributeRef>78D6A595-A6A3-8C32-341E-F49D2922A364</attributeRef>
+</usedAttributes>
+</identifier>
 </identifiers>
 </Entity>

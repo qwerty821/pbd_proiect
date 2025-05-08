@@ -65,10 +65,14 @@
 <engineerTo>
 <item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
 </engineerTo>
+<constraintName>Customer_Emai_CKl</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>150</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(email, &apos;[a-z0-9._%-]+@[a-z0-9._%-]+\.[a-z]{2,4}&apos;)"/>
+</checkConstraint>
 <ownDataTypeParameters>150,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Password" id="EDC8723A-EBF5-3003-A61C-FFBA15E69F1D">
@@ -128,6 +132,30 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>82F960D0-E7D9-416D-B4EB-966B0C57F1A0</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="520C8813-3D09-B45D-4885-4C4CD7024EFD" name="Customer_Email_UK">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-08 20:34:08 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<engineerTo>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+</engineerTo>
+<newElementsIDs>872A1988-DC23-12D9-B830-C0C8B7D34D8E</newElementsIDs>
+<usedAttributes>
+<attributeRef>872A1988-DC23-12D9-B830-C0C8B7D34D8E</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="3167731A-5459-A664-24D7-C9CF0BDD0902" name="Customer_Phone_UK">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-08 20:35:03 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<engineerTo>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+</engineerTo>
+<newElementsIDs>B4D3AC1B-6F3C-0C4A-5229-528F5D60E8C0</newElementsIDs>
+<usedAttributes>
+<attributeRef>B4D3AC1B-6F3C-0C4A-5229-528F5D60E8C0</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

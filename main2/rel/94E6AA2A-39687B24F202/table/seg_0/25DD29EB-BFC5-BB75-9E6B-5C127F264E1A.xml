@@ -17,6 +17,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="FirstName" id="CD8DD03F-4D75-0B60-1335-D4D5CDAE3E56">
@@ -48,10 +49,14 @@
 <createdTime>2025-05-07 16:41:16 UTC</createdTime>
 <generatorID>872A1988-DC23-12D9-B830-C0C8B7D34D8E</generatorID>
 <ownerDesignName>main2</ownerDesignName>
+<constraintName>Customer_Emai_CKl</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>150</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="regexp_like(email, &apos;[a-z0-9._%-]+@[a-z0-9._%-]+\.[a-z]{2,4}&apos;)"/>
+</checkConstraint>
 <ownDataTypeParameters>150,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -104,6 +109,28 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8BDDC16D-3098-E050-D73A-49FF16F9738E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF6A30E0-6088-5C11-B782-1C06D38622E8" name="Customer_Email_UN">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-08 20:44:22 UTC</createdTime>
+<generatorID>520C8813-3D09-B45D-4885-4C4CD7024EFD</generatorID>
+<ownerDesignName>main2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76D4A781-5BFB-C7BD-B734-C93CF67853E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBE4CFB9-6057-EFC3-31CD-030E0D7E7F1F" name="Customer_PhoneNumber_UN">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-08 20:44:22 UTC</createdTime>
+<generatorID>3167731A-5459-A664-24D7-C9CF0BDD0902</generatorID>
+<ownerDesignName>main2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D250C9EF-B6EA-D054-8231-62D580C7BEC3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
