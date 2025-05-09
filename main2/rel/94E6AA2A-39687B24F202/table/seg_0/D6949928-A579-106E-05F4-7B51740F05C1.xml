@@ -112,7 +112,7 @@
 <dataTypePrecision>5</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
 <checkConstraint>
-<implementationDef dbType="Generic Constraint" definition="Discount &gt; 0"/>
+<implementationDef dbType="Generic Constraint" definition="Discount &gt;= 0"/>
 </checkConstraint>
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>

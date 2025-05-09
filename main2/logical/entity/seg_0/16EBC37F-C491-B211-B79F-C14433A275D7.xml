@@ -136,7 +136,7 @@
 <dataTypePrecision>5</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
 <checkConstraint>
-<implementationDef dbType="Generic Constraint" definition="Discount &gt; 0"/>
+<implementationDef dbType="Generic Constraint" definition="Discount &gt;= 0"/>
 </checkConstraint>
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 </Attribute>
@@ -176,8 +176,9 @@
 <createdBy>qwerty</createdBy>
 <createdTime>2025-05-08 20:38:24 UTC</createdTime>
 <ownerDesignName>main2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="false"/>
 </engineerTo>
 <newElementsIDs>4FA4B099-2D64-BA88-D099-BB3F9641FAA5</newElementsIDs>
 <usedAttributes>
@@ -188,8 +189,9 @@
 <createdBy>qwerty</createdBy>
 <createdTime>2025-05-08 20:42:25 UTC</createdTime>
 <ownerDesignName>main2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="false"/>
 </engineerTo>
 <newElementsIDs>4CD16A40-C9DC-5DCD-25B3-73EF987353D2</newElementsIDs>
 <usedAttributes>
