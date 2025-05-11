@@ -7,7 +7,6 @@
 <item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
 </engineerTo>
 <sourcePk>D54828BC-93C4-FFB0-B328-A58BAA7D8A67</sourcePk>
-<targetPk>FCA52DD8-057E-D726-BDA7-C47D01BB5693</targetPk>
 <identifying>false</identifying>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
@@ -17,4 +16,19 @@
 <targetEntity>16EBC37F-C491-B211-B79F-C14433A275D7</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Quantity" id="4585A05A-3EF8-A1D5-8998-002AD0F001E1">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-10 20:42:01 UTC</createdTime>
+<ownerDesignName>main2</ownerDesignName>
+<engineerTo>
+<item key="94E6AA2A-30A8-345C-BC7E-39687B24F202" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
 </Relation>

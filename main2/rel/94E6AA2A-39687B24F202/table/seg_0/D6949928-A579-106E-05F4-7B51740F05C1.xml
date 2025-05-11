@@ -68,8 +68,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <checkConstraint>
-<implementationDef dbType="Generic Constraint" definition="StockQuantity &gt; 0"/>
+<implementationDef dbType="Generic Constraint" definition="StockQuantity &gt;= 0"/>
 </checkConstraint>
+<defaultValue>0</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -114,6 +115,7 @@
 <checkConstraint>
 <implementationDef dbType="Generic Constraint" definition="Discount &gt;= 0"/>
 </checkConstraint>
+<defaultValue>0</defaultValue>
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -128,6 +130,7 @@
 <logicalDatatype>LOGDT026</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
+<defaultValue>0</defaultValue>
 <ownDataTypeParameters>,4,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

@@ -106,7 +106,14 @@ BEGIN
 END;
 /
 
--- stergerea unui produs care este daugat in cos (va fi sters si din cos)
+-- stergerea unui produs care a fost adaugat in cos (va fi sters si din cos)
+-- se va afisa:
+-- Info: A fost adaugat in cos un produs cu id = 35 si cantitate = 1 (AddItem)
+-- Info: Se initializeaza stergerea produsului: 35 - Lenovo Legion 5 16IRX91
+-- Info: A fost sters din 1 cosuri
+-- Info: Produs marcat ca indisponibil: 35
+-- Info: Produsul a fost sters cu succes
+
 
 DECLARE
     v_customer_id  Customer.CUSTOMERID%TYPE;
@@ -122,15 +129,15 @@ BEGIN
 END;
 /
 
-truncate table CartItems;
+
+
+TRUNCATE TABLE Products;
+TRUNCATE table CartItems;
 TRUNCATE TABLE CART;
-DELETE FROM PRODUCTS WHERE Name = 'Lenovo Legion 5 16IRX91';
+DELETE FROM PRODUCTS WHERE PRODUCTID = 17;
 DELETE FROM CUSTOMER where FIRSTNAME = 'Ion';
-
+TRUNCATE TABLE ProductCategories;
 SELECT * FROM CART;
- 
-
-
 
 -- ALTER SYSTEM KILL SESSION 'sid,serial#' IMMEDIATE;
 
@@ -142,5 +149,4 @@ SELECT * FROM CART;
 SELECT * FROM PRODUCTS;
 SELECT * FROM CUSTOMER;
 
- SELECT COUNT(*)  FROM CARTITEMS
-            WHERE CART_CARTID = 2 AND PRODUCTS_PRODUCTID = 1;
+SELECT * FROM CARTITEMS;

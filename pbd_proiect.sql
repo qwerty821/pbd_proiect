@@ -190,7 +190,9 @@ IS
 
         -- PRAGMA AUTONOMOUS_TRANSACTION; -- pentru a putea face rollback din afara
     BEGIN
- 
+        
+        -- Inceputul tranzactiei
+
         -- 1. Verifica existenta produsului
         BEGIN
             SELECT Name INTO v_product_name 
@@ -206,8 +208,6 @@ IS
                 RAISE PRODUCT_NOT_FOUND;
         END;
         
-        -- Snceputul tranzactiei
-        SET TRANSACTION NAME 'mark_product_unavailable';
         
         DBMS_OUTPUT.PUT_LINE('Info: Se initializeaza stergerea produsului: ' || p_id || ' - ' || v_product_name);
         
@@ -228,10 +228,11 @@ IS
         -- 4. Marcheaza produsul ca indisponibil
         UPDATE Products SET
             Name = '[INDISPONIBIL] ' || v_product_name,
+            Description = ' [Produs indisponibil]',
+            Price = 0,
             StockQuantity = 0,
             Discount = 0,               
-            Description = ' [Produs indisponibil]',
-            ImageUrl = NULL              
+            Rating = 0       
         WHERE ProductID = p_id;
         
         DBMS_OUTPUT.PUT_LINE('Info: Produs marcat ca indisponibil: ' || p_id);

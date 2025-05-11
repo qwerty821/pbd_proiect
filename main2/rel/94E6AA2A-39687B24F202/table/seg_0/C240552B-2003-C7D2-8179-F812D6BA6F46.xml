@@ -36,6 +36,19 @@
 <colAssociation fkAssociation="AB11A6A4-13D8-0EEE-5F48-DD07FF12EB67" referredColumn="EDF339BB-852D-5681-A3B0-9F3E2B7E8131"/>
 </associations>
 </Column>
+<Column name="Quantity" id="D5B3A167-59A3-6F7F-A604-9CD8B27CDC83">
+<createdBy>qwerty</createdBy>
+<createdTime>2025-05-10 20:42:33 UTC</createdTime>
+<generatorID>4585A05A-3EF8-A1D5-8998-002AD0F001E1</generatorID>
+<ownerDesignName>main2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="ED484C59-56E2-D257-8298-768410BC4129" name="CartItems_PK">

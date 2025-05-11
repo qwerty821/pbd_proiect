@@ -86,8 +86,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <checkConstraint>
-<implementationDef dbType="Generic Constraint" definition="StockQuantity &gt; 0"/>
+<implementationDef dbType="Generic Constraint" definition="StockQuantity &gt;= 0"/>
 </checkConstraint>
+<defaultValue>0</defaultValue>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ImageUrl" id="3810077B-9DFE-5122-4E0F-D49C7E6DD79E">
@@ -138,6 +139,7 @@
 <checkConstraint>
 <implementationDef dbType="Generic Constraint" definition="Discount &gt;= 0"/>
 </checkConstraint>
+<defaultValue>0</defaultValue>
 <ownDataTypeParameters>,5,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="Rating" id="42E67958-53D5-CABF-835F-2EE5B976CB33">
@@ -154,6 +156,7 @@
 <logicalDatatype>LOGDT026</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
+<defaultValue>0</defaultValue>
 <ownDataTypeParameters>,4,2</ownDataTypeParameters>
 </Attribute>
 </attributes>
