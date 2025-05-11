@@ -1,5 +1,4 @@
-
-TRUNCATE TABLE CATEGORIES;
+ 
 DECLARE 
     v_result NUMBER;
 BEGIN
@@ -25,9 +24,7 @@ BEGIN
 END;
 /
 
-SELECT * from CATEGORIES;
-
-TRUNCATE TABLE PRODUCTS; 
+COMMIT;
 
 DECLARE
     v_prod_id NUMBER;
@@ -56,7 +53,7 @@ BEGIN
 
     v_prod_id := CATALOGPKG.ADDPRODUCT('iPad 10th Gen', 'Tabletă Apple iOS', 2999, 9, 'ipad10.jpg', 0);
     CATALOGPKG.ADDPRODUCTTOCATEGORIES(v_prod_id, 'Tablete,Portabile');
-
+    
     v_prod_id := CATALOGPKG.ADDPRODUCT('Razer Kraken V3', 'Căști de gaming cu sunet 7.1', 499, 25, 'kraken.jpg', 0);
     CATALOGPKG.ADDPRODUCTTOCATEGORIES(v_prod_id, 'Accesorii telefoane,Gaming');
 
@@ -86,5 +83,37 @@ END;
 COMMIT;
  
 
+SELECT * from CATEGORIES;
 
-SELECT * from PRODUCTCATEGORIES;
+
+DECLARE
+    v_customer_id INTEGER;
+BEGIN
+    -- v_customer_id := CustomerPkg.AddCustomer('Ion', 'Popescu', 'ion.popescu@example.com', 'parola123', '0712345678');
+    v_customer_id := CustomerPkg.AddCustomer('Maria', 'Ionescu', 'maria.ionescu@example.com', 'mypass456', '0723456789');
+    v_customer_id := CustomerPkg.AddCustomer('Andrei', 'Georgescu', 'andrei.g@example.com', 'secure789', '0734567890');
+    v_customer_id := CustomerPkg.AddCustomer('Elena', 'Marin', 'elena.marin@example.com', 'elena123', '0745678901');
+    
+END;
+/
+
+COMMIT;
+
+-- GRANT SELECT ON v_$session TO pbd_project;
+-- GRANT CREATE TABLE TO pbd_project;
+-- GRANT EXECUTE ON DBMS_LOCK TO pbd_project;
+
+-- TRUNCATE TABLE PRODUCTS CASCADE;
+-- SELECT * from CATEGORIES;
+-- SELECT * FROM PRODUCTS;
+
+-- SELECT * from CUSTOMER;
+
+
+-- SELECT p.NAME
+-- FROM Products p
+-- JOIN ProductCategories pc ON p.ProductID = pc.Products_ProductID
+-- JOIN Categories c ON c.CategoryID = pc.Categories_CategoryID  
+-- WHERE c.Name = 'Office';
+
+ 
